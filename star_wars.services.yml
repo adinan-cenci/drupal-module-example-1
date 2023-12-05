@@ -1,0 +1,6 @@
+services:
+  star_wars.api:
+    class: 'Drupal\star_wars\Service\StarWarsApi'
+    arguments:
+      - '@http_client'
+

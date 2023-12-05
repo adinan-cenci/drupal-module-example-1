@@ -1,0 +1,7 @@
+star_wars.character_page:
+  path: '/star-wars/character/{id}'
+  defaults:
+    _controller: 'Drupal\star_wars\Controller\Character::characterPage'
+    _title: 'Star Wars Character'
+  requirements: 
+    _permission: 'access content' 
